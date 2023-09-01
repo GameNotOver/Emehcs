@@ -6,4 +6,6 @@
 
 (if #t "Yes" "No")
 (cond ((> 1 2) "Yes") ((&& #t #f) "Maybe") (#t "No"))
-(cond ((> 1 2) "Yes") ((&& #t #t) "Maybe") (#t "No"))
+(cond ((> 1 2) "Yes") 
+      ((&& #t #t) "Maybe") 
+      (#t "No"))
